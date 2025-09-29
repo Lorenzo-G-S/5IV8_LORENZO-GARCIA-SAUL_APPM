@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DNI</title>
+    <link rel="stylesheet" href="estilo1.css">
 </head>
 <body>
     <div class="container">
@@ -22,11 +23,10 @@
             <label for="letraDNI">Letra del DNI:</label>
             <input type="text" id="letraDNI" placeholder="Ej: Z" maxlength="1" style="text-transform: uppercase;">
         </div>
-
-        
-
+        <button onclick="validarDNI()">Validar DNI</button>
         <div id="resultado" class="resultado"></div>
     </div>
     
+    <script src="funcion.js"></script>
 </body>
 </html>
