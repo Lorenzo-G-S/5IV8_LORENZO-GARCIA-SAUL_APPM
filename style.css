@@ -1,0 +1,28 @@
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, #0f172a, #0e7490);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 0.5rem;
+}
+
+body {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     background: linear-gradient(135deg, #0891b2 0%, #06b6d4 50%, #22d3ee 100%);
+     min-height: 100vh;
+     color: #0f172a;
+    }
+
+.actividad1{
+    background-color: aqua;
+    border-radius: 16px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+}
