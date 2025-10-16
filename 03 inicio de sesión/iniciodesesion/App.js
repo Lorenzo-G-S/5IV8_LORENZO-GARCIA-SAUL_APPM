@@ -12,7 +12,7 @@ export default function App() {
     const validUser = 'admin';
     const validPass = '1234';
     if (user === validUser && pass === validPass) {
-      Alert.alert('Correcto', 'Inicio de sesión exitoso');
+      console.log('Correcto', 'Inicio de sesión exitoso');
       setLoggedIn(true);
     } else {
       Alert.alert('Error', 'Usuario o contraseña incorrectos');
