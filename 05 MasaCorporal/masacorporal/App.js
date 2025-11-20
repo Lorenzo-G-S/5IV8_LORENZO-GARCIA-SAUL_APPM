@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, TextInput, TouchableOpacity, StyleSheet } from 'react-native';
+import { View, Text, TextInput, TouchableOpacity, StyleSheet, image } from 'react-native';
 
 export default function CalculadoraIMC() {
   const [peso, setPeso] = useState('');
@@ -37,6 +37,7 @@ export default function CalculadoraIMC() {
   return (
     <View style={styles.contenedor}>
       <Text style={styles.titulo}>Calculadora IMC</Text>
+      
       
       <Text style={styles.etiqueta}>Peso (kg):</Text>
       <TextInput
